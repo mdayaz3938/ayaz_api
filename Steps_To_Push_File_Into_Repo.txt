@@ -1,0 +1,59 @@
+md.ayaz@INLT-TRE1314 MINGW64 ~/Linux_Ayaz/API (master)
+$ pwd
+/c/Users/md.ayaz/Linux_Ayaz/API
+
+md.ayaz@INLT-TRE1314 MINGW64 ~/Linux_Ayaz/API (master)
+$ ls
+Sales_API.py
+
+md.ayaz@INLT-TRE1314 MINGW64 ~/Linux_Ayaz/API (master)
+$ git add .
+
+md.ayaz@INLT-TRE1314 MINGW64 ~/Linux_Ayaz/API (master)
+$ git commit -m 'api 1st commit'
+[master (root-commit) deda826] api 1st commit
+ Committer: Md Ayaz <md.ayaz@tredence.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 17 insertions(+)
+ create mode 100644 Sales_API.py
+
+md.ayaz@INLT-TRE1314 MINGW64 ~/Linux_Ayaz/API (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+md.ayaz@INLT-TRE1314 MINGW64 ~/Linux_Ayaz/API (master)
+$ git remote add origin https://github.com/mdayaz3938/ayaz_api.git
+
+md.ayaz@INLT-TRE1314 MINGW64 ~/Linux_Ayaz/API (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 526 bytes | 263.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/mdayaz3938/ayaz_api.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+md.ayaz@INLT-TRE1314 MINGW64 ~/Linux_Ayaz/API (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+md.ayaz@INLT-TRE1314 MINGW64 ~/Linux_Ayaz/API (master)
+$
